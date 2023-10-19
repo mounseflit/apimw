@@ -30,3 +30,4 @@ jobs:
     - run: npm install puppeteer express cors
     - run: npm run build --if-present
     - run: npm test
+    - run: node server.js
